@@ -17,6 +17,16 @@ Once you've gone through set up, start with the first exercise.
 
 Do not change any code in the `spec` directory. Your job is to write code in the `src` directory to make the tests pass.
 
+Once you've passed the tests for the exercise, push your work to your repository
+```sh
+$ git add src/01/variable-assignments.js
+$ git commit -m "01 completed"
+# Important - this runs the tests. Make sure you see no errors before continuing
+# If you see errors, read then carefully and fix your work before repeating the above steps.
+$ git push origin main
+# Move on to the next step!
+```
+
 ### Tests
 
 ```sh
