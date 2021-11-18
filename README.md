@@ -21,10 +21,12 @@ Once you've passed the tests for the exercise, push your work to your repository
 ```sh
 $ git add src/01/variable-assignments.js
 $ git commit -m "01 completed"
-# Important - this runs the tests. Make sure you see no errors before continuing
+# Important - running git commit runs the tests. If there are test failures the command will abort.
+# Make sure you see no errors before continuing.
 # If you see errors, read then carefully and fix your work before repeating the above steps.
+# You can verify a successful commit by checking with `git log` - verify you see the commit message.
 $ git push origin main
-# Move on to the next step!
+# Move on to the next exercise!
 ```
 
 ### Tests
