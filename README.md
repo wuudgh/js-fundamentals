@@ -11,13 +11,16 @@
 $ npm install
 ```
 
+### Exercises
+1. [Variable Assignments](./src/variable-assignments)
+
 ### Instructions
 
-Once you've gone through set up, start with the first exercise.
+Once you've gone through set up, start with the first exercise in the list above. Your job is to write code for each exercise to make the tests pass, one test at a time.
 
-Do not change any code in the `spec` directory. Your job is to write code in the `src` directory to make the tests pass.
+NB: Do not change any code in the `spec` directory.
 
-Once you've passed the tests for the exercise, push your work to your repository
+Once you've passed the tests for each exercise, push your work to your repository
 ```sh
 $ git add src/01/variable-assignments.js
 $ git commit -m "01 completed"
@@ -30,7 +33,7 @@ $ git push origin main
 ```
 
 ### Tests
-
+You can run all the test manually whenever you want:
 ```sh
 $ npm test
 ```
@@ -40,7 +43,7 @@ This will run two sets of tests.
 ### Linter Tests
 Using `npm test` will first run a set of tests that make sure your code satisfies specific stylistic rules - make sure you resolve these problems as you go.
 
-You can run the linter manually whenever you want and autocorrect where it's possible:
+You can also run the linter manually whenever you want and autocorrect where it's possible:
 ```sh
 npx eslint src --fix
 ```
@@ -48,7 +51,7 @@ npx eslint src --fix
 ### Functional Tests
 The second set of tests that will run are functional. They test the behaviour of the programs you write.
 
-You can run the tests manually whenever you want
+You can also run the tests manually whenever you want
 ```sh
 npx jasmine # run all the tests
 # or

@@ -1,8 +1,7 @@
-// do not edit this
-let anotherNumber, anotherNumber2, anotherNumber3
-
-// TODO: declare and assign values to variables so that the tests pass
-// write code here!
+// TODO: Change the values of the variables below so that the tests pass
+const anotherNumber = NaN // edit this value
+const anotherNumber2 = NaN // edit this value
+const anotherNumber3 = NaN // edit this value
 
 // do not edit this
 const count = 2

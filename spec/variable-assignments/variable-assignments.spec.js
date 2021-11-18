@@ -1,4 +1,4 @@
-const { count, count2, count3 } = require('../../src/01/variable-assignments.js')
+const { count, count2, count3 } = require('../../src/variable-assignments/variable-assignments.js')
 
 describe("Variable Assignments", () => {
   it("count is 2", () => {
