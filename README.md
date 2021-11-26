@@ -14,6 +14,11 @@ $ npm install
 ### Exercises
 - [Variable Assignments](./src/variable-assignments)
 - [Conditional Flow](./src/conditional-flow)
+  - [isGreaterThan](./src/conditional-flow/isGreaterThan.js)
+  - [isLongerThan](./src/conditional-flow/isLongerThan.js)
+  - [isArrayEmpty](./src/conditional-flow/isArrayEmpty.js)
+  - [hasOddNumberVowels](./src/conditional-flow/hasOddNumberVowels.js)
+  - [getMiddleLetter](./src/conditional-flow/getMiddleLetter.js)
 - [Loops](./src/loops)
 - [Fizzbuzz 1](./src/fizzbuzz)
 - [Functions](./src/functions)
@@ -39,12 +44,10 @@ Once you've passed the tests for each exercise, push your work to your repositor
 $ git add src/variable-assignments/variable-assignments.js
 $ git commit -m "variable-assignments completed"
 ```
-**Important** - running git commit runs the tests. **If there are test failures the command will abort.**
 
-
-Make sure you see no errors in the exercise you completed before continuing. If you see errors, read them carefully and **fix your work** before repeating the above steps.
-
-You can verify a successful commit by checking with `git log` - verify you see the commit message.
+> **Important** - running git commit runs a test to check the formatting of your code. **If there are errors the command will abort.**
+> Make sure you see no errors in the exercise you completed before continuing. If you see errors, read them carefully and **fix your work** before repeating the above steps.
+> You can verify a successful commit by checking with `git log` - verify you see the commit message.
 ```
 $ git push origin main
 ```
