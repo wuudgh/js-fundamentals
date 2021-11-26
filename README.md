@@ -12,28 +12,47 @@ $ npm install
 ```
 
 ### Exercises
-1. [Variable Assignments](./src/variable-assignments)
+- [Variable Assignments](./src/variable-assignments)
+- [Conditional Flow](./src/conditional-flow)
+- [Loops](./src/loops)
+- [Fizzbuzz 1](./src/fizzbuzz)
+- [Functions](./src/functions)
+- [Classes](./src/functions)
+
 
 ### Instructions
 
 Once you've gone through set up, start with the first exercise in the list above. Your job is to write code for each exercise to make the tests pass, one test at a time.
 
-NB: Do not change any code in the `spec` directory.
+To start, always first run the tests for the set of exercises you are on. For example:
+```sh
+$ npx jasmine spec/variable-assignments/variable-assignments.spec.js
+```
+![](./_images/test-output1.png)
+
+**Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time.
+
+**NB:** Do not change any code in the `spec` directory.
 
 Once you've passed the tests for each exercise, push your work to your repository
 ```sh
-$ git add src/01/variable-assignments.js
-$ git commit -m "01 completed"
-# Important - running git commit runs the tests. If there are test failures the command will abort.
-# Make sure you see no errors before continuing.
-# If you see errors, read then carefully and fix your work before repeating the above steps.
-# You can verify a successful commit by checking with `git log` - verify you see the commit message.
-$ git push origin main
-# Move on to the next exercise!
+$ git add src/variable-assignments/variable-assignments.js
+$ git commit -m "variable-assignments completed"
 ```
+**Important** - running git commit runs the tests. **If there are test failures the command will abort.**
+
+
+Make sure you see no errors in the exercise you completed before continuing. If you see errors, read them carefully and **fix your work** before repeating the above steps.
+
+You can verify a successful commit by checking with `git log` - verify you see the commit message.
+```
+$ git push origin main
+```
+Then, move on to the next exercise!
+
 
 ### Tests
-You can run all the test manually whenever you want:
+You can run all the tests manually whenever you want:
 ```sh
 $ npm test
 ```
