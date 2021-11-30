@@ -1,5 +1,5 @@
-// this function should return true if the first argument is greater than or equal to 18
 // TODO: write code to pass the tests
+
 const cities = ['London', 'Shanghai', 'New York', 'Delhi', 'Kuala Lumpur']
 const names = []
 

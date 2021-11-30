@@ -14,6 +14,8 @@ $ npm install
 ### Exercises
 - [Variable Assignments](./src/variable-assignments)
 - [Arrays]()
+  - [accessing-elements]('./src/arrays/accessing-elements.js')
+  - [adding-removing-elements]('./src/arrays/adding-removing-elements.js')
 - [Objects]()
 - [Conditional Flow](./src/conditional-flow)
   - [example]('./src/conditional-flow/example.js')

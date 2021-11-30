@@ -1,4 +1,5 @@
 // TODO: write code to pass the tests
+
 const cities = ['London', 'Shanghai', 'New York', 'Delhi', 'Kuala Lumpur']
 const names = []
 const numbers = [1, 2, 3]
