@@ -14,6 +14,7 @@ $ npm install
 ### Exercises
 - [Variable Assignments](./src/variable-assignments)
 - [Arrays]()
+  - [example]('./src/arrays/example.js')
   - [accessing-elements]('./src/arrays/accessing-elements.js')
   - [adding-removing-elements]('./src/arrays/adding-removing-elements.js')
 - [Objects]()
