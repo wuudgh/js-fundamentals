@@ -13,16 +13,29 @@ $ npm install
 
 ### Exercises
 - [Variable Assignments](./src/variable-assignments)
+- [Arrays]()
+- [Objects]()
 - [Conditional Flow](./src/conditional-flow)
+  - [example]('./src/conditional-flow/example.js')
   - [isGreaterThan](./src/conditional-flow/isGreaterThan.js)
   - [isLongerThan](./src/conditional-flow/isLongerThan.js)
   - [isArrayEmpty](./src/conditional-flow/isArrayEmpty.js)
   - [hasOddNumberVowels](./src/conditional-flow/hasOddNumberVowels.js)
   - [getMiddleLetter](./src/conditional-flow/getMiddleLetter.js)
 - [Loops](./src/loops)
-- [Fizzbuzz 1](./src/fizzbuzz)
+  - [example]('./src/loops/example.js')
+  - [arrayFromTo]('./src/loops/arrayFromTo.js')
+  - [everyOtherElement]('./src/loops/everyOtherElement.js')
+  - [numsToStrs](./src/loops/numsToStrs.js)
 - [Functions](./src/functions)
-- [Classes](./src/functions)
+  - [example]('./src/functions/example.js')
+  - [basic]('./src/functions/basic.js')
+  - [basic2]('./src/functions/basic2.js')
+  - [basic3]('./src/functions/basic3.js')
+  - [intermediate1]('./src/functions/basic.js')
+  - [intermediate2]('./src/functions/basic2.js')
+  - [intermediate3]('./src/functions/basic3.js')
+
 
 
 ### Instructions
@@ -37,7 +50,7 @@ $ npx jasmine spec/variable-assignments/variable-assignments.spec.js
 
 **Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time.
 
-**NB:** Do not change any code in the `spec` directory.
+**NB:** Do not change any code in the `spec` directory. When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 Once you've passed the tests for each exercise, push your work to your repository
 ```sh
@@ -77,5 +90,5 @@ You can also run the tests manually whenever you want
 ```sh
 npx jasmine # run all the tests
 # or
-npx jasmine spec/01/variable-assignments.spec.js # run a set of tests in a spec file
+npx jasmine spec/variable-assignments/variable-assignments.spec.js # run a set of tests in a spec file
 ```
