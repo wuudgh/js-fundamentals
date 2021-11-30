@@ -20,4 +20,9 @@ describe("Arrays", () => {
   it("accessing element at unknown index returns undefined", () => {
     expect(answers.e).toEqual(undefined)
   })
+
+  it("length returns the total items in the array", () => {
+    expect(answers.f).toEqual(5)
+  })
+
 })
