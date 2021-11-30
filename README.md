@@ -13,11 +13,15 @@ $ npm install
 
 ### Exercises
 - [Variable Assignments](./src/variable-assignments)
-- [Arrays]()
+- [Arrays](./spec/arrays/README.md)
   - [example]('./src/arrays/example.js')
   - [accessing-elements]('./src/arrays/accessing-elements.js')
   - [adding-removing-elements]('./src/arrays/adding-removing-elements.js')
-- [Objects]()
+- [Objects](./spec/objects/README.md)
+  - [Object Keys]('./src/objects/object-key.js)
+  - [Creating Objects]()
+  - [Objects Containing Arrays]()
+  - [Arrays Containing Objects]()
 - [Conditional Flow](./src/conditional-flow)
   - [example]('./src/conditional-flow/example.js')
   - [isGreaterThan](./src/conditional-flow/isGreaterThan.js)
