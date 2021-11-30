@@ -6,5 +6,5 @@ const computer = null
 // Do not edit this exported object
 module.exports = {
   person: person,
-  computer : computer
+  computer: computer
 }
