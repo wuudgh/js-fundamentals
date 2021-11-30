@@ -1,21 +1,21 @@
 const book = {
-  name: "Clean Code",
-  author: "Robert C. Martin",
-  category: "Cooking",
-  isbn :  {
-    isbn10: "9780132350884",
-    asin: "0132350882"
+  name: 'Clean Code',
+  author: 'Robert C. Martin',
+  category: 'Cooking',
+  isbn: {
+    isbn10: '9780132350884',
+    asin: '0132350882'
   },
-  publisher: "Prentice Hall",
-  dimensions : "10x12x2"
+  publisher: 'Prentice Hall',
+  dimensions: '10x12x2'
 }
 
-const isbn13 = "978-0132350884"
+const isbn13 = '978-0132350884'
 
-// TODO: write code in this section to pass the tests. You will need to add new code 
+// TODO: write code in this section to pass the tests. You will need to add new code
 // as well as modify some of the existing code
-const name = ""
-const isbn10 = ""
+const name = ''
+const isbn10 = ''
 
 // Do not edit this exported object
 module.exports = {
