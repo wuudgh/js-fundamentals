@@ -24,4 +24,12 @@ describe("Arrays", () => {
   it("Array F", () => {
     expect(answers.f).toEqual(["Bolivia", "Greenland"])
   })
+
+  it("Array G", () => {
+    expect(answers.g).toEqual(["Apple", "Orange"])
+  })
+
+  it("Array H", () => {
+    expect(answers.h).toEqual("Pear")
+  })
 })
