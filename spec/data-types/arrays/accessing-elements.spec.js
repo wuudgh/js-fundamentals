@@ -1,4 +1,4 @@
-const answers = require('../../src/arrays/accessing-elements.js')
+const answers = require('../../src/data-types/arrays/accessing-elements.js')
 
 describe("Arrays", () => {
   it("Element A", () => {

@@ -1,10 +1,7 @@
 // TODO: Declare the variables firstName and age so that the tests pass
 
-
-
-
 // do not edit the exported object.
-let firstNameExport = ""
+let firstNameExport = ''
 try { firstNameExport = firstName } catch (e) {}
 
 let ageExport = 0

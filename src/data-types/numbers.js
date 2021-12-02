@@ -1,7 +1,7 @@
 // do not edit these lines
-const numOne = 8;
-const numTwo = 16;
-const numThree = 32;
+const numOne = 8
+const numTwo = 16
+const numThree = 32
 
 // TODO: Add code below using Javascript numeric operators so that the tests pass
 

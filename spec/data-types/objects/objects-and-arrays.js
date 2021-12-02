@@ -1,4 +1,4 @@
-const answers = require('../../src/objects/objects-and-arrays.js')
+const answers = require('../../../src/data-types/objects/objects-and-arrays.js')
 
 describe('Objects', () => {
   it('Number of voucher codes should be 2', () => {

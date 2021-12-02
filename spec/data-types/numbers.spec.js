@@ -1,4 +1,4 @@
-const { a, b, c, d, e, f } = require('../../src/variables/declaration.js')
+const { a, b, c, d, e, f } = require('../../src/data-types/numbers')
 
 describe("Numbers", () => {
 
