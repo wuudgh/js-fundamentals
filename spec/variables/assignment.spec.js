@@ -1,6 +1,6 @@
-const { count, count2, count3 } = require('../../src/variable-assignments/variable-assignments.js')
+const { count, count2, count3 } = require('../../src/variables/assignment.js')
 
-describe("Variable Assignments", () => {
+describe("Variable Assignment", () => {
   it("count is 2", () => {
     expect(count).toEqual(2)
   })

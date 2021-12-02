@@ -14,7 +14,7 @@ const basket = {
   voucherCodes: [
     'AA-AA-A',
     'BB-BB-B'
-  ],
+  ]
 }
 
 // TODO: write code in this section to pass the tests. You will need to add new code
