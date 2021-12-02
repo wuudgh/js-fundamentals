@@ -1,6 +1,7 @@
-const isGreaterThan = require('../../src/conditional-flow/isGreaterThan.js')
+const {a, b, c} = require('../../src/conditional-flow/conditional-numeric-comparisons')
 
-describe("isGreaterThan", () => {
+describe("Conditional Numeric Comparisons", () => {
+  
   it("3 is greater than 2", () => {
     expect(isGreaterThan(3, 2)).toEqual(true)
   })
