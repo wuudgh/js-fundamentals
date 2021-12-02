@@ -1,6 +1,6 @@
-const greet = require('../../src/functions/basic2.js')
+const greet = require('../../src/functions/creating-functions')
 
-describe("greet function", () => {
+describe("Creating Functions", () => {
   it("returns string with smiley", () => {
     expect(greet("edward")).toEqual("Hi, Edward :)")
   })

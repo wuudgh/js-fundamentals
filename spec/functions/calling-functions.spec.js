@@ -1,0 +1,16 @@
+const {a, b, c} = require('../../src/functions/calling-functions.js')
+
+describe('Calling Functions', () => {
+  it('hello', () => {
+    expect(a).toEqual('Hello')
+  })
+
+  it('helloToJane', () => {
+    expect(b).toEqual('Hello to Jane!')
+  })
+
+  it('helloToBob3Times', () => {
+    expect(c).toEqual('Hello Bob! Hello Bob! Hello Bob!')
+  })
+
+})
