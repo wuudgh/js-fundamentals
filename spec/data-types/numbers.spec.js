@@ -1,7 +1,6 @@
 const { a, b, c, d, e, f } = require('../../src/data-types/numbers')
 
 describe("Numbers", () => {
-
   it("numOnePlusNumTwo is 24", () => {
     expect(a).toEqual(24)
   })
@@ -25,5 +24,4 @@ describe("Numbers", () => {
   it("numBytes is 7", () => {
     expect(f).toEqual(7)
   })
-
 })

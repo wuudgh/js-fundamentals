@@ -1,10 +1,10 @@
 const { a } = require('../../src/conditional-flow/boolean-conditions')
 
-describe("toggle", () => {
-  it("Returns false when provided true", () => {
-    expect(a(true)).toEqual(false)
+describe("getResult", () => {
+  it("Returns 'Well done, you passed!' with true", () => {
+    expect(a(true)).toEqual('Well done, you passed!')
   })
-  it("Returns true when provided false", () => {
-    expect(a(false)).toEqual(true)
+  it("Returns 'Sorry, try again' with false", () => {
+    expect(a(false)).toEqual('Sorry, try again')
   })
 })

@@ -1,3 +1,4 @@
+// do not edit this section
 const items = ['This is the first item', 'This is the second item']
 const e = ['a', 'b', 'c']
 const f = [101, 102]

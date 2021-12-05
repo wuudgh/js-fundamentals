@@ -1,7 +1,6 @@
 const { a, b, c, d } = require('../../src/data-types/strings')
 
 describe('Strings', () => {
-
   it('fullName is Jame Smith', () => {
     expect(a).toEqual('Jane Smith')
   })

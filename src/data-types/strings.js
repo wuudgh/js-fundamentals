@@ -6,7 +6,7 @@ const secondName = 'Smith'
 // TODO: Update the code using Javascript string operations and the variables above so that the tests pass.
 
 const fullName = null
-const tenthCharacterOfAlphabet = null
+const tenthCharacterOfAlphabet = null 
 const lowerCaseAlphabet = null
 const numberOfLettersInAlphabet = null
 

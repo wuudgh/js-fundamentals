@@ -7,7 +7,7 @@ let sum = 0 // Use a for loop to set the sum variable to the sum of all the valu
 
 const doubledNums = [] // Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 
-let word = '' // Use a for loop to set word equal to all the 
+let word = '' // Use a for loop to set word equal to all the letters in the letters array
 
 const everySecondNum = [] // Use a for loop to populate everySecondNum with every second number from the nums array
 

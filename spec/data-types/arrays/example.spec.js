@@ -1,4 +1,4 @@
-const example = require('../../src/arrays/example.js')
+const example = require('../../../src/data-types/arrays/example.js')
 
 describe("Arrays example", () => {
   it("Array Example'", () => {

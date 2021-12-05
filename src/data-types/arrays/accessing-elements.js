@@ -1,3 +1,4 @@
+// do not edit this section
 const cities = ['London', 'Shanghai', 'New York', 'Delhi', 'Kuala Lumpur']
 
 // TODO: write code to pass the tests
