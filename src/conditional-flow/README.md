@@ -30,7 +30,24 @@ In the above example we check if `age` is greater than 18, but there are many di
 * Is greater or equal to `10 >= 10` 
 * Is less or equal to `10 <= 10`
 
-We are also not limited to a single comparison - we can use multiple comparisons chained together with either the the logical AND operator `&&` or the logical OR operator `||` (2 pipe characters). 
+As well as comparing numbers, we can also compare strings:
+
+```javascript
+"Nicolas" === "Nicolas"
+>>> true
+```
+
+```javascript
+"Nicolas" === "nicolas"
+>>> false // it’s case-sensitive
+```
+
+```javascript
+"Nicolas" !== "nicolas"
+>>> true 
+```
+
+We are not limited to a single comparison - we can use multiple comparisons chained together with either the the logical AND operator `&&` or the logical OR operator `||` (2 pipe characters). 
 
 For a chained comparison to return true, `&&` requires that *all* combined expressions are also `true`. For example
 

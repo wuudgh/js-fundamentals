@@ -24,7 +24,7 @@ From text and numbers to lists, people and actions, everything in JavaScript can
 ```javascript
 const isCodingFun = true
 ```
-There’s really not much we can do with a boolean by itself, yet, as we will see later on when we cover conditionals, they are crucial to programming. We usually get true or false as a result of asking our program a question, like: 
+There’s really not much we can do with a boolean by itself, yet, as we will see later on when we cover conditionals, they are crucial to programming. We usually get true or false as a result of asking our program a question. Run these examples in your REPL:
 
 ```javascript
 5 > 3 //Is 5 greater than 3? 
@@ -52,7 +52,7 @@ Booleans can be flipped by adding an exclamation mark right before it:
 ```javascript
 const age = 20
 ```
-Alright, let’s dig into our first data type. As you might expect, anything that you can usually do with numbers you can do in JavaScript:
+As you might expect, anything that you can usually do with numbers you can do in JavaScript. Run these examples in your REPL:
 
 ```javascript
 10 + 10 //addition
@@ -85,13 +85,15 @@ The above examples all use literal values (i.e. a specific number), but we can a
 const price = 10
 const quantity = 2
 const cost = price * quantity 
+console.log(price)
+>>> 10
 ```
 
 ## Strings
 ```javascript
 const name = 'Jane'
 ```
-Strings are simply how we represent text within our programs, from a single character to a whole book. In JavaScript, we can create a string by wrapping our characters in single or double quotes or backticks:
+Strings are simply how we represent text within our programs, from a single character to a whole book. In JavaScript, we can create a string by wrapping our characters in single , double quotes or backticks:
 
 ```javascript
 "hey there!"
@@ -99,23 +101,29 @@ Strings are simply how we represent text within our programs, from a single char
 `hey there!`
 ```
 
-We can add strings together by using the plus `+` operator. This is called **concatenation**:
+We can add strings together by using the plus `+` operator. This is called **concatenation**. 
+
+Run the below code exmaples in your REPL:
 
 ```javascript
-"Hello" + "there!"
+'Hello' + 'there!'
+>> 'Hellothere!'
 ```
+
 We can also concatenate string variables:
 
 ```javascript
 const teacher = "Nicolas"
-"Hello" + teacher + "!"
+"Hello " + teacher + "!"
+>>> 'Hello Nicolas!'
 ```
 
-Adding variables to a string is called interpolation, and you’ll be doing this a lot! We can also use strings wrapped in back quotes (or backticks) to achive the same result. This code is equivalent to the above example:
+Adding variables to a string is called interpolation, and you’ll be doing this a lot! We can also use strings wrapped in back quotes (or backticks) to achieve the same result. This code is equivalent to the above example:
 
 ```javascript
 const teacher = "Nicolas"
-`Hello` ${teacher} !"
+`Hello ${teacher} !`
+>>> 'Hello Nicolas!'
 ```
 
 This is called a **template literal**.
@@ -125,25 +133,13 @@ Strings also have a TON of useful helper methods and properties. Here’s a coup
 ```javascript
 const name = "Nicolas"
 name.length
-=> 7
+>>> 7
 ```
 
 ```javascript
 const name = "Nicolas"
 name.toUpperCase()
-=> "NICOLAS"
-```
-
-To wrap up strings for now, know that you can also compare strings, like you do with numbers:
-
-```javascript
-"Nicolas" === "Nicolas"
-=> true
-```
-
-```javascript
-"Nicolas" === "nicolas"
-=> false // it’s case-sensitive
+>>> "NICOLAS"
 ```
 
 ## Next
@@ -154,3 +150,6 @@ to try out and experiment with code.
 ## References
 * Strings
   * [Boolean Strings Slides](https://docs.google.com/presentation/d/1w_cS-TIrEfROoA-OPsC_AxAkdu-1BNkdqkEq-qroNsE/edit#slide=id.gb5c1893e49_0_77)
+  * [MDN Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+* Numbers
+  * [MDN Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
