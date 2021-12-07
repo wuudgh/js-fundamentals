@@ -1,8 +1,3 @@
-module.exports = {
-  a : isInRange,
-  b : isHelloOrGoodbye
-}
-
 const {a, b} = require('../../src/conditional-flow/multiple-conditions')
 
 describe("isInRange", () => {

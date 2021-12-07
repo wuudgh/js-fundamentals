@@ -19,15 +19,15 @@ $ npm install
   - [Examples](./src/data-types/example.js)
   - [Numbers](./src/data-types/numbers.js)
   - [Strings](./src/data-types/strings.js)
+  - [Arrays](./spec/data-types/arrays/README.md)
+    - [Examples]('./src/data-types/arrays/example.js')
+    - [Accessing Element]('./src/data-types/arrays/accessing-elements.js')
+    - [Adding and Removing Elements]('./src/data-types/arrays/adding-removing-elements.js')
   - [Objects](./spec/data-types/objects/README.md)
     - [Examples]('./src/data-types/arrays/example.js')
     - [Object Keys](./src/data-types/objects/object-key.js)
     - [Creating Objects](./src/data-types/objects/creating-objects.js)
     - [Objects And Arrays](./src/data-types/objects/objects-and-arrays.js)
-  - [Arrays](./spec/data-types/arrays/README.md)
-    - [Examples]('./src/data-types/arrays/example.js')
-    - [Accessing Element]('./src/data-types/arrays/accessing-elements.js')
-    - [Adding and Removing Elements]('./src/data-types/arrays/adding-removing-elements.js')
 - [Loops](./src/loops)
   - [Examples]('./src/loops/example.js')
   - [For Loop Basics]('./src/loops/for-loop-basics.js')
@@ -35,7 +35,6 @@ $ npm install
 - [Functions](./src/functions/README.md)
   - [Examples](./src/functions/example.js)
   - [Calling Functions]('./src/functions/calling-functions.js')
-  - [Returning From Functions]('./src/functions/returning-from-functions.js')
   - [Creating Functions]('./src/functions/creating-functions.js')
   - [Creating Functions with Multiple Arguments]('./src/functions/creating-functions-multiple-args.js')
 - [Conditional Flow](./src/conditional-flow/README.md)
@@ -59,9 +58,13 @@ $ npx jasmine spec/variables/assignments.spec.js
 
 **Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignments.js` and follow the instructions to make the test pass.
 
-**NB:** Do not change any code in the `spec` directory. When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). The README file for each topic also contains an overview of the concepts required to make the tests pass. 
+**NB:** Do not change any code in the `spec` directory. When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). 
 
-Once you've passed the tests for each exercise, push your work to your repository
+The README file for each topic also contains an overview of the concepts required to make the tests pass. In the README files, when you see this message:
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+Open up your REPL and type in the code samples as you go. Once you've passed the tests for each exercise, push your work to your repository
 ```sh
 $ git add src/variables/assignments.js
 $ git commit -m "variable assignments completed"

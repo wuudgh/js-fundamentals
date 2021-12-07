@@ -1,13 +1,7 @@
+//
+//
+//
 // TODO: Declare the variables firstName and age so that the tests pass
-
-
-
-
-
-
-
-
-
 
 
 

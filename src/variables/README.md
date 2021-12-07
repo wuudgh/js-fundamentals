@@ -1,15 +1,20 @@
 # Variables
-Variables are used to store values. Before a variable can be used, it must be **declared**. In JavaScript, we can declare variables using the `const` keyword. The below code declares a variable called `name`, and sets the value to "Jane":
+
+Variables are used to store values. Before a variable can be used, it must be **declared**.
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+ In JavaScript, we can declare variables using the `const` keyword. The below code declares a variable called `name`, and sets the value to "Jane":
 
 ```javascript
 const name='Jane'
 ```
-Variables that are declared using `const` cannot change their value - their value is **constant**. The `let` keyword can be used to declare a variable that can change value:
+Variables that are declared using `const` cannot change their value - their value is **constant** (try change it and see what happens!). The `let` keyword can be used to declare a variable that can change value:
 ```javascript
-let name='Jane'
+let otherName='Jane'
 
 //We can now assign a new value to name
-name='Bob'
+otherName='Bob'
 ```
 
 In Javascript, any valid data type can be stored in a variable. The above example created a variable that stored a `string` data type. `string` values are always enclosed in quotes. Numbers can be stored in variables too:

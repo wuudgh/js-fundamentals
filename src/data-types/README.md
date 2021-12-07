@@ -24,7 +24,9 @@ From text and numbers to lists, people and actions, everything in JavaScript can
 ```javascript
 const isCodingFun = true
 ```
-There’s really not much we can do with a boolean by itself, yet, as we will see later on when we cover conditionals, they are crucial to programming. We usually get true or false as a result of asking our program a question. Run these examples in your REPL:
+There’s really not much we can do with a boolean by itself, yet, as we will see later on when we cover conditionals, they are crucial to programming. We usually get true or false as a result of asking our program a question. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
 
 ```javascript
 5 > 3 //Is 5 greater than 3? 
@@ -52,7 +54,9 @@ Booleans can be flipped by adding an exclamation mark right before it:
 ```javascript
 const age = 20
 ```
-As you might expect, anything that you can usually do with numbers you can do in JavaScript. Run these examples in your REPL:
+As you might expect, anything that you can usually do with numbers you can do in JavaScript. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
 
 ```javascript
 10 + 10 //addition
@@ -93,7 +97,11 @@ console.log(price)
 ```javascript
 const name = 'Jane'
 ```
-Strings are simply how we represent text within our programs, from a single character to a whole book. In JavaScript, we can create a string by wrapping our characters in single , double quotes or backticks:
+Strings are simply how we represent text within our programs, from a single character to a whole book. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+In JavaScript, we can create a string by wrapping our characters in single , double quotes or backticks:
 
 ```javascript
 "hey there!"
@@ -148,8 +156,4 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
-* Strings
-  * [Boolean Strings Slides](https://docs.google.com/presentation/d/1w_cS-TIrEfROoA-OPsC_AxAkdu-1BNkdqkEq-qroNsE/edit#slide=id.gb5c1893e49_0_77)
-  * [MDN Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-* Numbers
-  * [MDN Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+* [MDN Data Types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)

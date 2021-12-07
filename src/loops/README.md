@@ -1,10 +1,19 @@
 # Loops
-Loops are used to run code multiple times. In JavaScript, there are many different types of loops. For now, we are going to focus on `for` loops. Here's an example of a loop that will print the numbers 0 to 4:
+Loops are used to run code multiple times. In JavaScript, there are many different types of loops. We are going to focus on `for` loops. 
+
+> 👨‍💻 Run the example below in your REPL 👨‍💻
+
+Here's an example of a loop that will print the numbers 0 to 4:
 
 ```javascript
 for (let i=0; i<5; i++) {
   console.log(i)
 }
+>>> 0
+>>> 1
+>>> 2
+>>> 3
+>>> 4
 ```
 
 Let's deconstruct how the for loop works. First, we start with the `for` keyword:
@@ -13,10 +22,10 @@ Let's deconstruct how the for loop works. First, we start with the `for` keyword
 for 
 ```
 
-We then have parenthesis, but this time there’s more going on. If you look closely, there’s 3 sections divided by semicolons: `( *1* ; *2* ; *3* )`
+We then have a open bracket `(`, with 3 sections divided by semicolons:
 
 ```javascript
-        //1     //2     //3
+//   ---1--- -2-- --3--
 for (let i=0; i<5; i++)
 ```
 
@@ -65,7 +74,11 @@ for (let i=10; i>0; i--) {
 ```
 
 ## Loops and Arrays
-For loops become even more powerful when we combine them with arrays. Using what we've learned about for loops so far, we can use `array.length` to iterate through all the items in an array like so:
+For loops become even more powerful when we combine them with arrays. 
+
+> 👨‍💻 Run the example below in your REPL 👨‍💻
+
+Using what we've learned about for loops so far, we can use `array.length` to iterate through all the items in an array like so:
 
 ```javascript
 const names = ['Mike', 'Ed', 'Steven']

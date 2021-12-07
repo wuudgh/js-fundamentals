@@ -1,4 +1,4 @@
-const answers = require('../../src/objects/creating-objects.js')
+const answers = require('../../../src/data-types/objects/creating-objects.js')
 
 describe('Objects', () => {
   it('Person should be an object with the name "Jane"', () => {
@@ -9,11 +9,11 @@ describe('Objects', () => {
     expect(answers.person.age).toEqual(32)
   })
 
-  it('Computer should be an object with the form of "ATX"', () => {
-    expect(answers.computer.form).toEqual("atx")
+  it('Computer should be an object with the form "laptop"', () => {
+    expect(answers.computer.form).toEqual("laptop")
   })
 
-  it('Computer.graphicsCard should be an object with name "GTX 3090" and vram "8GB"', () => {
-    expect(answers.computer.graphicsCard).toEqual({name: "GTX 3090", vram: "8GB"})
+  it('Computer.specs should be an object with a memory "16GB" and storage "1TB"', () => {
+    expect(answers.computer.specs).toEqual({memory: "16GB", storage: "1TB"})
   })
 })

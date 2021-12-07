@@ -8,10 +8,14 @@ const isTrue = true
 const isFalse = false
 ```
 
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
 But more commonly we can also store the result of a comparison:
 
 ```javascript
 const myBool = 5 > 3 //myBool will be set to true
+myBool
+>>> false
 ```
 
 Rather than comparing fixed numbers like 3 and 5, we can also compare variables:
@@ -19,6 +23,8 @@ Rather than comparing fixed numbers like 3 and 5, we can also compare variables:
 ```javascript
 const age = 10
 const isOver18 = age > 18 //isOver18 will be set to false
+isOver18
+>>> false
 ```
 
 In the above example we check if `age` is greater than 18, but there are many different types of comparisons available:
@@ -52,36 +58,45 @@ We are not limited to a single comparison - we can use multiple comparisons chai
 For a chained comparison to return true, `&&` requires that *all* combined expressions are also `true`. For example
 
 ```javascript
-const age = 10
-const isTeenager = age > 12 && age < 20 //false, as age is under 20 but not over 12
+let age = 10
+let isTeenager = age > 12 && age < 20 //false, as age is under 20 but not over 12
+>>> false
 ```
 
 ```javascript
-const age = 14
-const isTeenager = age > 12 && age < 20 //true, as age is under 20 and over 12
+age = 14
+isTeenager = age > 12 && age < 20 //true, as age is under 20 and over 12
+>>> true
 ```
 
 ```javascript
-const age = 21
-const isTeenager = age > 12 && age < 20 //false, as age is over 20 even though greater than 12
+age = 21
+isTeenager = age > 12 && age < 20 //false, as age is over 20 even though greater than 12
+>>> false
 ```
 
 The OR operator `||` requires that *any of* combined expressions are `true` for the chained expression to return true. For example:
 
 ```javascript
-const age = 10
-const withParent = true
-const isAllowed = age > 17 || withParent //true, withParent is true even though age>17 is false
+age = 10
+let withParent = true
+isAllowed = age > 17 || withParent //true, withParent is true even though age>17 is false
+>>> true
 ```
 
 ```javascript
-const age = 10
-const withParent = false
-const isAllowed = age > 17 || withParent //false, withParent is false and age>17 is false
+age = 10
+withParent = false
+isAllowed = age > 17 || withParent //false, withParent is false and age>17 is false
+>>> false
 ```
 
 ## If Statement
-Up until now, whatever we were writing was being executed when our program ran. Conditions allow us to execute some code only if a condition is met. The main way to implement a condition in JavaScript is by using an `if` statement. Here's a basic example
+Up until now, whatever we were writing was being executed when our program ran. Conditions allow us to execute some code only if a condition is met. The main way to implement a condition in JavaScript is by using an `if` statement. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+Here's a basic example
 
 ```javascript
 if (true) {
@@ -98,8 +113,8 @@ If we run this code, only the first statement is printed. This is because an `if
 For example, we can provide a boolean variable:
 
 ```javascript
-const age = 20
-const isAllowed = age > 18
+age = 20
+isAllowed = age > 18
 if (isAllowed) {
   console.log("You can come in!")
 }

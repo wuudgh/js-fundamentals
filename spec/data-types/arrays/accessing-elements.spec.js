@@ -1,4 +1,4 @@
-const answers = require('../../src/data-types/arrays/accessing-elements.js')
+const answers = require('../../../src/data-types/arrays/accessing-elements.js')
 
 describe("Arrays", () => {
   it("Element A", () => {
@@ -17,12 +17,8 @@ describe("Arrays", () => {
     expect(answers.d).toEqual("London")
   })
 
-  it("accessing element at unknown index returns undefined", () => {
-    expect(answers.e).toEqual(undefined)
-  })
-
-  it("length returns the total items in the array", () => {
-    expect(answers.f).toEqual(5)
+  it("lengthOfCitiesArray is 5", () => {
+    expect(answers.e).toEqual(5)
   })
 
 })

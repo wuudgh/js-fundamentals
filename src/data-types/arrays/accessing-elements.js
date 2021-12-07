@@ -8,8 +8,7 @@ const elementA = cities[NaN]
 const elementB = ['Hi', 'Ed', 'how', 'are', 'you?'][NaN]
 const elementC = names[2]
 const elementD = cities[NaN]
-const elementE = [][0]
-const length = NaN
+const lengthOfCitiesArray = NaN
 
 // Do not edit this exported object
 module.exports = {
@@ -17,6 +16,5 @@ module.exports = {
   b: elementB,
   c: elementC,
   d: elementD,
-  e: elementE,
-  f: length
+  e: lengthOfCitiesArray
 }

@@ -1,4 +1,4 @@
-const answers = require('../../src/objects/object-keys.js')
+const answers = require('../../../src/data-types/objects/object-keys.js')
 
 describe('Objects', () => {
   it('name should be equal to the book name', () => {
@@ -6,7 +6,7 @@ describe('Objects', () => {
   })
 
   it('ISBN 10 should be equal to the book\'s ISBN 10 number', () => {
-    expect(answers.isbn10).toEqual('978-0132350884')
+    expect(answers.isbn10).toEqual('9780132350884')
   })
 
   it('Book category should be Programming', () => {

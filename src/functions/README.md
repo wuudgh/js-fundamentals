@@ -1,6 +1,10 @@
 # Functions
 
-A function is a callable piece of code that can take multiple inputs and return a single output In other words, you call them and give them some info, they do something, and they give you something back. Here's an example function:
+A function is a callable piece of code that can take multiple inputs and return a single output In other words, you call them and give them some info, they do something, and they give you something back. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+Here's an example function:
 
 ```javascript
 function add(a, b) {
@@ -15,12 +19,6 @@ Next there are the function parameters `(a, b)`. These are the external pieces o
 Finally, we have our function’s block. This is the code that appears in the curly braces after thr function definition and is the code we want out function to run when it's called. Within this block, we will have access to all the parameters we’ve defined, and we can also use the special keyword `return` to end the function and give back a single value as a result.
 
 In the example above, the function is not actually doing anything yet - we’re just declaring how the function will work. If we want to use the function, we need to *call* it. We can do that like so:
-
-```javascript
-console.log(add(5, 3))
-```
-
-We could have also stored the functions return value in a variable too:
 
 ```javascript
 const result = add(5, 3)

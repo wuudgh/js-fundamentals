@@ -9,8 +9,8 @@ describe('Strings', () => {
     expect(b).toEqual('J')
   })
 
-  it('lowerCaseAlphabet is abcdefghijlkmnopqrstuvwxyz', () => {
-    expect(c).toEqual('abcdefghijlkmnopqrstuvwxyz')
+  it('lowerCaseAlphabet is abcdefghijklmnopqrstuvwxyz', () => {
+    expect(c).toEqual('abcdefghijklmnopqrstuvwxyz')
   })
 
   it('numberOfLettersInAlphabet is 26', () => {

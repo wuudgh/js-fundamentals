@@ -6,11 +6,10 @@ describe('Calling Functions', () => {
   })
 
   it('helloToJane', () => {
-    expect(b).toEqual('Hello to Jane!')
+    expect(b).toEqual('Hello Jane!')
   })
 
   it('helloToBob3Times', () => {
-    expect(c).toEqual('Hello Bob! Hello Bob! Hello Bob!')
+    expect(c).toEqual('Hello Bob!Hello Bob!Hello Bob!')
   })
-
 })

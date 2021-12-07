@@ -1,8 +1,8 @@
-const answers = require('../../src/data-types/arrays/adding-removing-elements.js')
+const answers = require('../../../src/data-types/arrays/adding-removing-elements.js')
 
 describe("Arrays", () => {
   it("Array A", () => {
-    expect(answers.a).toEqual(["Peach"])
+    expect(answers.a).toEqual(["Fred"])
   })
 
   it("Array B", () => {

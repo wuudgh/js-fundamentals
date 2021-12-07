@@ -19,9 +19,7 @@ const lastName2 = 'Neves'
 const age2 = 30
 ```
 
-How could we make this better? The answer is **Objects**. JavaScript objects are a data type that consists of keys and values, wrapped with curly braces. We can use objects to 
-collect together related properties that represent a single instance of something, like a
-person:
+How could we make this better? The answer is **Objects**. JavaScript objects are a data type that consists of keys and values, wrapped with curly braces. We can use objects to collect together related properties that represent a single instance of something, like a person:
 
 ```javascript
 const person = {
@@ -31,14 +29,16 @@ const person = {
 }
 ```
 
-Objects are composed of **Key value pairs**, separated by a `:`. In the example above, there are
+Objects are composed of **Key value pairs**, separated by a colon (`:`). In the example above, there are
 3 key value pairs:
 
 1. The key `firstName` with a value of `Nicolas`
 2. The key `lastName` with a value of `Marcona`
 3. The key `age` with a value of 33.
 
-Keys are always strings, but values can be any valid JavaScript datatype: number, string, booleans, null, undefined, array and even object.
+Keys are always strings, but values can be any valid JavaScript datatype: number, string, booleans, null, undefined, array and even object. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
 
 Let's look at how we can add keys to an object. Starting with a blank object:
 
@@ -50,49 +50,52 @@ We can add a new key using the `object[key]` syntax:
 
 ```javascript
 instructor['firstName'] = 'Nicolas'
-=> { firstName: 'Nicolas' }
+>>> { firstName: 'Nicolas' }
 ```
 
 And, if you don’t have any special characters, this cleaner syntax (also know as dot notation) does the same thing:
 
 ```javascript
 instructor.lastName = 'Marcora'
-=> { firstName: 'Nicolas', lastName: 'Marcora' }
+>>> { firstName: 'Nicolas', lastName: 'Marcora' }
 ```
 
 Similarly, we can read keys from an object using the same syntax. First using `object[key]`:
 
 ```javascript
 instructor['firstName']
-=> 'Nicolas'
+>>> 'Nicolas'
 ```
 
 ...and using dot syntax:
 
 ```javascript
 instructor.lastName
-=> 'Marcora'
+>>> 'Marcora'
 ```
 
 Key values can also be updated in the same way:
 
 ```javascript
 instructor['firstName'] = 'Sergio'
-=> { firstName: 'Sergio', lastName: 'Marcora' }
+instructor
+>>> { firstName: 'Sergio', lastName: 'Marcora' }
 ```
 
 And the dot notation equivalent:
 
 ```javascript
 instructor.lastName = instructor.lastName.toUpperCase()
-=> { firstName: 'Sergio', lastName: 'MARCORA' }
+instructor
+>>> { firstName: 'Sergio', lastName: 'MARCORA' }
 ```
 
 Finally, to delete keys from an Object, you can use the `delete` keyword:
 
 ```javascript
 delete instructor.lastName
-=> { firstName: 'Sergio' }
+instructor
+>>> { firstName: 'Sergio' }
 ```
 
 ## Next

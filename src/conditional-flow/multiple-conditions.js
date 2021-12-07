@@ -1,6 +1,6 @@
 // This function should return true if num is greater 
 // than or equal to lower AND less than or equal to upper.
-// Implement this with a single if statement.
+// Implement this with a single condition.
 function isInRange (num, lower, upper) {
 
   // TODO: write code in this function body to pass the tests

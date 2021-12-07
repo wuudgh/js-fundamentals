@@ -1,63 +1,77 @@
 # Arrays
 Variables allow us to store a single value. An `age` variable is a single number, a `name` variable is a single string. But what if we wanted to have not one, but several names stored for later? Or what if we wanted to store a list of tweets or a list of items in a shopping cart?
 
-**Arrays** allow us to do this. Array's are a single data type used to represent a list of things. For example, the code below creates a list of 3 names:
+**Arrays** allow us to do this. Array's are a single data type used to represent a list of things. 
+
+> 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
+
+For example, the code below creates a list of 3 names:
 
 ```javascript
- const names = ['Nicolas', 'Sergio', 'Steven']
+ const instructors = ['Nicolas', 'Sergio', 'Steven']
 ```
 
 We can add items to an array using helper methods of our array: `.unshift()` and `.push()`.  
 
-`unshift` will add elements to the start of an array:
+`unshift` will add elements to the start of an array and then return the total number of items in the array:
 
 ```javascript
 instructors.unshift('Mike')
-=> ['Mike', 'Nicolas', 'Sergio', 'Steven']
+>>> 4
+instructors
+>>> ['Mike', 'Nicolas', 'Sergio', 'Steven']
 ```
 
-`push` will add elements to the end of the array:
+`push` will add elements to the end of the array and it also returns the total number of items in the array:
 
 ```javascript
 instructors.push('Ed')
-=> ['Mike', 'Nicolas', 'Sergio', 'Steven', 'Ed']
+>>> 5
+instructors
+>>> ['Mike', 'Nicolas', 'Sergio', 'Steven', 'Ed']
 ```
 
 The `array[index]` syntax reads a single element from an array:
 
 ```javascript
 instructors[0] // indices start at 0, not 1!
-=> 'Mike'
+>>> 'Mike'
 ```
 
 The `.slice(firstIndex, lastIndex)` helper method can be used to get a segment of the array:
 
 ```javascript
 instructors.slice(1,3) // careful: last index is NOT INCLUDED
-=> ['Nicolas', 'Sergio']  // this is a *copy*! The original array still has all 4
+>>> ['Nicolas', 'Sergio']  // this is a *copy*! The original array still has all 4
 ```
 
 Using `array[index] = newValue`, we can swap the element at a specific location:
 
 ```javascript
 instructors[1] = 'Lewis'
-=> ['Mike', 'Lewis', 'Sergio', 'Steven', 'Ed']
+>>> 'Lewis'
+instructors
+>>> ['Mike', 'Lewis', 'Sergio', 'Steven', 'Ed']
 ```
 
 Similar to adding an element, we can remove an element from the start or end of the array using `.shift()` and `.pop()`
 
-`shift` removes elements from the start of the array:
+`shift` removes elements from the start of the array and returns the removed element
 
 ```javascript
 instructors.shift()
-=> ['Lewis', 'Sergio', 'Steven', 'Ed'] // Mike is gone!
+>>> 'Mike'
+instructors
+>>> ['Lewis', 'Sergio', 'Steven', 'Ed'] // Mike is gone!
 ```
 
-`pop` removes elements from the end of the array:
+`pop` removes elements from the end of the array and also returns the removed element
 
 ```javascript
 instructors.pop()
-=> ['Lewis', 'Sergio', 'Steven'] // And now Ed, too!
+>>> 'Ed'
+instructors
+>>> ['Lewis', 'Sergio', 'Steven'] // And now Ed, too!
 ```
 
 ## Next

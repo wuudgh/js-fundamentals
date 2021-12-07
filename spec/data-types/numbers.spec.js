@@ -17,7 +17,7 @@ describe("Numbers", () => {
     expect(d).toEqual(24)
   })
 
-  it("total is 56", () => {
+  it("sum is 56", () => {
     expect(e).toEqual(56)
   })
 
