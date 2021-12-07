@@ -9,7 +9,7 @@ describe("Variable Assignment", () => {
     expect(count2).toEqual(10)
   })
 
-  it("count3 is 42", () => {
-    expect(count3).toEqual(42)
+  it("count3 is 14", () => {
+    expect(count3).toEqual(14)
   })
 })
