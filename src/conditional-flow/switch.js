@@ -1,22 +1,19 @@
-// This function should return the name of the month corresponding
-// to the passed monthNumber. For example, 1 should return January,
-// 2 should return February etc. If the provided monthNumber has no
-// month, an empty string ("") should be returned. Use a switch statement
-// to check these conditions.
-function monthName(monthNumber) {
-
-  // TODO: write code in this function body to pass the tests
-}
-
-// This function should return true if the provided country is one
-// of "Scotland", "England", "Northern Ireland" or "Wales". Use a 
-// switch statement to check this condition.
-function isInUK(country) {
+// This function should return the name of the season for the provided
+// month name. For example, "January" should return "Winter". If the provided
+// value is not a valid month, an empty string ("") should be returned. Use
+// the below ranges for each season:
+//
+// Spring - March to May
+// Summer - June to August
+// Autumn - September to November
+// Winter - December to February
+//
+// Use a switch statement to check these conditions. 
+function seasonForMonth(monthNumber) {
 
   // TODO: write code in this function body to pass the tests
 }
 
 module.exports = {
-  a: monthName,
-  b: isInUK
+  a: seasonForMonth,
 }

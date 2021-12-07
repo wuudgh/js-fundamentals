@@ -1,64 +1,43 @@
 const {a, b} = require('../../src/conditional-flow/switch')
 
-describe('monthName', () => {
-  it('1 is January', () => {
-    expect(a(1)).toEqual('January')
+describe('seasonForMonth', () => {
+  it('January is Winter', () => {
+    expect(a('January')).toEqual('Winter')
   })
-  it('2 is February', () => {
-    expect(a(2)).toEqual('February')
+  it('February is Winter', () => {
+    expect(a('February')).toEqual('Winter')
   })
-  it('3 is March', () => {
-    expect(a(3)).toEqual('March')
+  it('March is Spring', () => {
+    expect(a('March')).toEqual('Spring')
   })
-  it('4 is April', () => {
-    expect(a(4)).toEqual('April')
+  it('April is Spring', () => {
+    expect(a('April')).toEqual('Spring')
   })
-  it('5 is May', () => {
-    expect(a(5)).toEqual('May')
+  it('May is Spring', () => {
+    expect(a('May')).toEqual('Spring')
   })
-  it('6 is June', () => {
-    expect(a(6)).toEqual('June')
+  it('June is Summer', () => {
+    expect(a('June')).toEqual('Summer')
   })
-  it('7 is July', () => {
-    expect(a(7)).toEqual('July')
+  it('July is Summer', () => {
+    expect(a('July')).toEqual('Summer')
   })
-  it('8 is August', () => {
-    expect(a(8)).toEqual('August')
+  it('August is Summer', () => {
+    expect(a('August')).toEqual('Summer')
   })
-  it('9 is September', () => {
-    expect(a(9)).toEqual('September')
+  it('September is Autumn', () => {
+    expect(a('September')).toEqual('Autumn')
   })
-  it('10 is October', () => {
-    expect(a(10)).toEqual('October')
+  it('October is Autumn', () => {
+    expect(a('October')).toEqual('Autumn')
   })
-  it('11 is November', () => {
-    expect(a(11)).toEqual('November')
+  it('November is Autumn', () => {
+    expect(a('November')).toEqual('Autumn')
   })
-  it('12 is December', () => {
-    expect(a(12)).toEqual('December')
+  it('December is Winter', () => {
+    expect(a('December')).toEqual('Winter')
   })
-  it('0 is empty', () => {
-    expect(a(0)).toEqual('')
-  })
-  it('13 is empty', () => {
-    expect(a(13)).toEqual('')
-  })
-})
-
-describe('isInUk', () => {
-  it('Scotland is in UK', () => {
-    expect(b('Scotland')).toEqual(true)
-  })
-  it('England is in UK', () => {
-    expect(b('England')).toEqual(true)
-  })
-  it('Wales is in UK', () => {
-    expect(b('Wales')).toEqual(true)
-  })
-  it('Northern Ireland is in UK', () => {
-    expect(b('Northern Ireland')).toEqual(true)
-  })
-  it('France is not in UK', () => {
-    expect(b('France')).toEqual(true)
+  it('Marchprilvember is empty', () => {
+    expect(a('Marchprilvember')).toEqual('')
   })
 })

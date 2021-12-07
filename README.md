@@ -52,7 +52,7 @@ Once you've gone through set up, start with the first exercise in the list above
 
 To start, always first run the tests for the set of exercises you are on. For example:
 ```sh
-$ npx jasmine spec/variable-assignments/variable-assignments.spec.js
+$ npx jasmine spec/variables/assignments.spec.js
 ```
 ![](./_images/test-output1.png)
 
