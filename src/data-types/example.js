@@ -8,7 +8,7 @@ const numTwo = 10
 
 // TODO: Update the code below using string operations on the variables
 // above so that the tests pass.
-const upperCaseHello = hello.toLocaleUpperCase()
+const upperCaseHello = hello.toUpperCase()
 const secondCharacterOfDog = animal.charAt(1)
 const howManyVowels = vowels.length
 

@@ -1,10 +1,9 @@
 // do not edit this
-let anotherNumber2 = 10
+const anotherNumber2 = 10
 
 // TODO: Change the values of the variables below so that the tests pass
 // You will need to add a new line to update the value of anotherNumber3
 const anotherNumber = NaN // edit this value
-
 
 // do not edit this
 const count = 2

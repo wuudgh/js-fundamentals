@@ -6,7 +6,7 @@ function isArrayEmpty (array) {
 
 // This function should return true if num1 is greater than num2, false otherwise
 function isGreaterThan (num1, num2) {
-  
+
   // TODO: write code in this function body to pass the tests
 
 }
@@ -19,7 +19,7 @@ function findLowest (nums) {
 }
 
 module.exports = {
-  a : isArrayEmpty,
-  b : isGreaterThan,
-  c : findLowest
+  a: isArrayEmpty,
+  b: isGreaterThan,
+  c: findLowest
 }

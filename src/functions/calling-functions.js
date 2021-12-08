@@ -1,15 +1,15 @@
 // do not edit the below
-function sayHello() {
+function sayHello () {
   return 'Hello'
 }
 
-function sayHelloTo(name) {
+function sayHelloTo (name) {
   return 'Hello ' + name + '!'
 }
 
-function sayHelloManyTimes(name, times) {
-  let hello = '';
-  for (let i=0; i<times; i++){
+function sayHelloManyTimes (name, times) {
+  let hello = ''
+  for (let i = 0; i < times; i++) {
     hello += 'Hello ' + name + '!'
   }
 

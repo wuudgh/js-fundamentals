@@ -4,7 +4,7 @@
 // 4, 9 | 13
 // TO DO: write code below
 
-function sum(one, two) {
+function sum (one, two) {
 
 }
 

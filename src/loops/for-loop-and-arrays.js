@@ -3,11 +3,11 @@ const letters = ['H', 'e', 'l', 'l', 'o']
 
 // TODO: Add code below this line to make the tests pass
 
-let sum = 0 // Use a for loop to set the sum variable to the sum of all the values in nums
+const sum = 0 // Use a for loop to set the sum variable to the sum of all the values in nums
 
 const doubledNums = [] // Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 
-let word = '' // Use a for loop to set word equal to all the letters in the letters array
+const word = '' // Use a for loop to set word equal to all the letters in the letters array
 
 const everySecondNum = [] // Use a for loop to populate everySecondNum with every second number from the nums array
 

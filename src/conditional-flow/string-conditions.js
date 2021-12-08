@@ -1,18 +1,18 @@
 // This function should return true if the passed string is equal to "Hello"
-function isHello(val1) {
+function isHello (val1) {
 
   // TODO: write code in this function body to pass the tests
 
 }
 
 // This function should return true if the passed string is not equal to "Hello"
-function isNotHello(val1) {
+function isNotHello (val1) {
 
   // TODO: write code in this function body to pass the tests
 
 }
 
-// This function should return true if the string val1 is is longer 
+// This function should return true if the string val1 is is longer
 // than string val2
 function isLongerThan (val1, val2) {
 
@@ -20,7 +20,7 @@ function isLongerThan (val1, val2) {
 
 }
 
-// This function should return true if the string passed in the function's first 
+// This function should return true if the string passed in the function's first
 // argument has an odd number of vowels
 
 function hasOddNumberVowels (val1) {
@@ -47,17 +47,16 @@ function getMiddleLetter (val1) {
 // Summer - June to August
 // Autumn - September to November
 // Winter - December to February
-function seasonForMonth(monthName) {
+function seasonForMonth (monthName) {
 
   // TODO: write code in this function body to pass the tests
 }
 
-
 module.exports = {
-  a : isHello,
-  b : isNotHello,
-  c : isLongerThan,
-  d : hasOddNumberVowels,
-  e : getMiddleLetter,
-  f : seasonForMonth
+  a: isHello,
+  b: isNotHello,
+  c: isLongerThan,
+  d: hasOddNumberVowels,
+  e: getMiddleLetter,
+  f: seasonForMonth
 }

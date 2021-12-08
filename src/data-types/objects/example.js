@@ -1,4 +1,4 @@
-//Do not edit below this line
+// Do not edit below this line
 const user = {
   name: 'Jane',
   level: 'admin'

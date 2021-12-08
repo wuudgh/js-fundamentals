@@ -121,16 +121,16 @@ Run the below code exmaples in your REPL:
 We can also concatenate string variables:
 
 ```javascript
-const teacher = "Nicolas"
-"Hello " + teacher + "!"
+const teacher = 'Nicolas'
+'Hello ' + teacher + '!'
 >>> 'Hello Nicolas!'
 ```
 
 Adding variables to a string is called interpolation, and you’ll be doing this a lot! We can also use strings wrapped in back quotes (or backticks) to achieve the same result. This code is equivalent to the above example:
 
 ```javascript
-const teacher = "Nicolas"
-`Hello ${teacher} !`
+const teacherLiteral = 'Nicolas'
+`Hello ${teacherLiteral} !`
 >>> 'Hello Nicolas!'
 ```
 
@@ -139,16 +139,23 @@ This is called a **template literal**.
 Strings also have a TON of useful helper methods and properties. Here’s a couple of really useful ones, but feel free to explore more in the console:
 
 ```javascript
-const name = "Nicolas"
+const name = 'Nicolas'
 name.length
 >>> 7
 ```
 
 ```javascript
-const name = "Nicolas"
-name.toUpperCase()
->>> "NICOLAS"
+const nameUpper = 'Nicolas'
+nameUpper.toUpperCase()
+>>> 'NICOLAS'
 ```
+
+You can also extract a specific character from a string by using the square brackets syntax `string[index]`:
+
+```javascript
+const hello = 'Hello'
+hello[1] //the index is 0 based! This will return the 2nd character
+>>> 'e'
 
 ## Next
 Work your way through the tests for this section. You can use the references below and also
