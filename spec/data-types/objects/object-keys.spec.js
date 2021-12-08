@@ -21,11 +21,11 @@ describe('Objects', () => {
     expect(answers.book.isbn.isbn13).toEqual('978-0132350884')
   })
 
-  it('Book should not contain the dimensions property', () => {
+  it('Book should not contain the dimensions key - it should be deleted', () => {
     expect(answers.book.dimensions).not.toBeDefined()
   })
 
-  it('Book should not contain the asin number', () => {
+  it('Book should not contain the asin key - it should be deleted', () => {
     expect(answers.book.isbn.asin).not.toBeDefined()
   })
 })
