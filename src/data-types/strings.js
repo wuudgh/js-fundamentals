@@ -7,7 +7,7 @@ const secondName = 'Smith'
 
 const fullName = null // Concatenate firstName and secondName
 
-const tenthCharacterOfAlphabet = null // Get the 10th character of the alphabet variable
+const tenthCharacterOfAlphabet = null               //Get the 10th character of the alphabet variable
 
 const lowerCaseAlphabet = null // Call a method on the alphabet variable to transform it to lower case
 

@@ -49,14 +49,14 @@ $ npm install
 
 Once you've gone through set up, start with the first exercise in the list above. Your job is to write code for each exercise to make the tests pass, one test at a time.
 
-To start, always first run the tests for the set of exercises you are on. The simplest way to do this is to open up the project in VS Code, start a new terminal (`Terminal` -> `New` from the menu)  then run the `npx jasmine` command. For example, for the first tests, `variables/assignments.spec.js` you would run:
+To start, always first run the tests for the set of exercises you are on. The simplest way to do this is to open up the project in VS Code, start a new terminal (`Terminal` -> `New` from the menu)  then run the `npx jasmine` command. For example, for the first tests, `variables/assignment.spec.js` you would run:
 
 ```sh
-$ npx jasmine spec/variables/assignments.spec.js
+$ npx jasmine spec/variables/assignment.spec.js
 ```
 ![](./_images/test-output1.png)
 
-**Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignments.js` and follow the instructions to make the test pass.
+**Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignment.js` and follow the instructions to make the test pass.
 
 **NB:** Do not change any code in the `spec` directory. When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). 
 
@@ -66,7 +66,7 @@ The README file for each topic also contains an overview of the concepts require
 
 Open up your REPL and type in the code samples as you go. Once you've passed the tests for each exercise, push your work to your repository
 ```sh
-$ git add src/variables/assignments.js
+$ git add src/variables/assignment.js
 $ git commit -m "variable assignments completed"
 ```
 
@@ -102,5 +102,5 @@ You can also run the tests manually whenever you want
 ```sh
 npx jasmine # run all the tests
 # or
-npx jasmine spec/variable-assignments/variable-assignments.spec.js # run a set of tests in a spec file
+npx jasmine spec/variables/assignment.spec.js # run a set of tests in a spec file
 ```

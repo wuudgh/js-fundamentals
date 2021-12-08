@@ -38,13 +38,6 @@ instructors[0] // indices start at 0, not 1!
 >>> 'Mike'
 ```
 
-The `.slice(firstIndex, lastIndex)` helper method can be used to get a segment of the array:
-
-```javascript
-instructors.slice(1,3) // careful: last index is NOT INCLUDED
->>> ['Nicolas', 'Sergio']  // this is a *copy*! The original array still has all 4
-```
-
 Using `array[index] = newValue`, we can swap the element at a specific location:
 
 ```javascript
@@ -72,6 +65,16 @@ instructors.pop()
 >>> 'Ed'
 instructors
 >>> ['Lewis', 'Sergio', 'Steven'] // And now Ed, too!
+```
+
+The `.splice(start, deleteCount)` helper method can be used to delete a segment of the array.
+
+```javascript
+instructors.splice(1,1) //delete 1 item starting at index 1
+>>> ['Sergio']
+instructors // And now Sergio!
+['Lewis', 'Steven']
+>>>
 ```
 
 ## Next

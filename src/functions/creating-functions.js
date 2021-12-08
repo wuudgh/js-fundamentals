@@ -3,7 +3,7 @@
 // Example Input and Output:
 //
 // Input  | Output
-// 1      | 1
+// 1      | 2
 // 2      | 3
 //
 // TODO: write code below
