@@ -156,6 +156,7 @@ You can also extract a specific character from a string by using the square brac
 const hello = 'Hello'
 hello[1] //the index is 0 based! This will return the 2nd character
 >>> 'e'
+```
 
 ## Next
 Work your way through the tests for this section. You can use the references below and also
@@ -163,4 +164,6 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
+* [Boolean Variables Slides](https://docs.google.com/presentation/d/17blHGDVfjN_EerQtw0ybFDtJEhjj9wAU9qHoI1DAnYw/edit?usp=sharing)
+* [Boolean Strings Slides](https://docs.google.com/presentation/d/1w_cS-TIrEfROoA-OPsC_AxAkdu-1BNkdqkEq-qroNsE/edit?usp=sharing)
 * [MDN Data Types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)

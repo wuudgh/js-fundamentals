@@ -31,5 +31,5 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
-* [Boolean Functions Slides](https://docs.google.com/presentation/d/1kRRzKyDw6WvfydFBDWTRHMRDeyoAoGd8KmoyAdOf6r0/edit#slide=id.gd46f8ee6d4_0_23)
+* [Boolean Functions Slides](https://docs.google.com/presentation/d/1y3MTvIPCIYl2a3Cn6hW6kYbxrGKZELqWlXAUKlYUTF0/edit?usp=sharing)
 * [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)

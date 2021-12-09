@@ -194,5 +194,5 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
-* [Boolean Slides](https://docs.google.com/presentation/d/17YZv-apFaaFM0ICtIwZN2moSpKtS4-Mq-heCy6L7kxo/edit#slide=id.gd46f8ee6d4_0_8)
+* [Boolean Conditional Flow Slides](https://docs.google.com/presentation/d/17YZv-apFaaFM0ICtIwZN2moSpKtS4-Mq-heCy6L7kxo/edit#slide=id.gd46f8ee6d4_0_8)
 * [MDN If...Else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)

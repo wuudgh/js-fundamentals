@@ -95,7 +95,7 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
-* [Boolean Loops Slides](https://docs.google.com/presentation/d/1GSh7zybHz3R9Dt0xjGFbJJidhz8bQHi01liJDcjmxCg/edit#slide=id.gba45c307d0_0_147)
+* [Boolean Loops Slides](https://docs.google.com/presentation/d/1GSh7zybHz3R9Dt0xjGFbJJidhz8bQHi01liJDcjmxCg/edit?usp=sharing)
 * [MDN Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 

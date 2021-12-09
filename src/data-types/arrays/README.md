@@ -83,5 +83,5 @@ the `example.js` file to see more code samples. Remember you can make use of the
 to try out and experiment with code.
 
 ## References
-* [Boolean Arrays Slides](https://docs.google.com/presentation/d/1GSh7zybHz3R9Dt0xjGFbJJidhz8bQHi01liJDcjmxCg/edit#slide=id.gbb3e6d91bd_0_153)
+* [Boolean Arrays Slides](https://docs.google.com/presentation/d/1DhM7LtnqKC3qJI_bYKTMjt7H9kMqMgqorhwhvVhtytI/edit?usp=sharing)
 * [MDN Javascript arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)

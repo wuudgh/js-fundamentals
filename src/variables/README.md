@@ -36,5 +36,5 @@ to try out and experiment with code.
 
 ## References
 
-* [Boolean Slides]()
+* [Boolean Variables Slides](https://docs.google.com/presentation/d/17blHGDVfjN_EerQtw0ybFDtJEhjj9wAU9qHoI1DAnYw/edit?usp=sharing)
 * [MDN Declaring Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations)

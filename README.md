@@ -24,11 +24,11 @@ $ npm install
     - [Accessing Element]('./src/data-types/arrays/accessing-elements.js')
     - [Adding and Removing Elements]('./src/data-types/arrays/adding-removing-elements.js')
   - [Objects](./spec/data-types/objects/README.md)
-    - [Examples]('./src/data-types/arrays/example.js')
+    - [Examples]('./src/data-types/objects/example.js')
     - [Object Keys](./src/data-types/objects/object-key.js)
     - [Creating Objects](./src/data-types/objects/creating-objects.js)
     - [Objects And Arrays](./src/data-types/objects/objects-and-arrays.js)
-- [Loops](./src/loops)
+- [Loops](./src/loops/README.md)
   - [Examples]('./src/loops/example.js')
   - [For Loop Basics]('./src/loops/for-loop-basics.js')
   - [For Loops And Arrays]('./src/loops/for-loops-and-arrays.js')
@@ -43,7 +43,6 @@ $ npm install
   - [Numeric Conditions]('./src/conditional-flow/numeric-conditions.js')
   - [String Conditions]('./src/conditional-flow/string-conditions.js')
   - [Multiple Conditions]('./src/conditional-flow/multiple-conditions.js')
-  - [Switch Statements]('./src/conditional-flow/switch.js')
 
 ### Instructions
 
