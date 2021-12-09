@@ -84,4 +84,4 @@ to try out and experiment with code.
 
 ## References
 * [Boolean Arrays Slides](https://docs.google.com/presentation/d/1DhM7LtnqKC3qJI_bYKTMjt7H9kMqMgqorhwhvVhtytI/edit?usp=sharing)
-* [MDN Javascript arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [MDN Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)

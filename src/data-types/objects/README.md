@@ -105,4 +105,4 @@ to try out and experiment with code.
 
 ## References
 * [Boolean Objects Slides](https://docs.google.com/presentation/d/1OrCY1WRyXlX29bx99f-RXhx6jYraL9gMkmUE5uo4nBE/edit#slide=id.gd46f8ee6d4_0_18)
-* [MDN Javascript Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+* [MDN Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
