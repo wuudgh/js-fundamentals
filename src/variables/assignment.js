@@ -1,18 +1,14 @@
 // do not edit this
-const anotherNumber2 = 10
+let firstNumber = 10
 
-// TODO: Change the value of the anotherNumber below so that the tests pass
-// You will also need to reassign the value of anotherNumber2
-const anotherNumber = NaN // edit this value
+// TODO: Change the code below so that the tests pass
 
-// do not edit this
-const count = 2
-const count2 = count + anotherNumber
-const count3 = anotherNumber2 * count
+const secondNumber = 0 // edit this value
+
+//TODO: Set the value of firstNumber so the tests pass
 
 // do not edit the exported object.
 module.exports = {
-  count: count,
-  count2: count2,
-  count3: count3
+  a: firstNumber,
+  b: secondNumber
 }

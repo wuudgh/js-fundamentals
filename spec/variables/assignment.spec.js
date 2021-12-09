@@ -1,15 +1,11 @@
-const { count, count2, count3 } = require('../../src/variables/assignment.js')
+const { a, b } = require('../../src/variables/assignment.js')
 
 describe("Variable Assignment", () => {
-  it("count is 2", () => {
-    expect(count).toEqual(2)
+  it("firstNumber is 20", () => {
+    expect(a).toEqual(20)
   })
 
-  it("count2 is 10", () => {
-    expect(count2).toEqual(10)
-  })
-
-  it("count3 is 14", () => {
-    expect(count3).toEqual(14)
+  it("secondNumber is 42", () => {
+    expect(b).toEqual(42)
   })
 })
