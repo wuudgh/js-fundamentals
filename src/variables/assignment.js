@@ -5,7 +5,8 @@ let firstNumber = 10
 
 const secondNumber = 0 // edit this value
 
-//TODO: Set the value of firstNumber so the tests pass
+// TODO: Set the value of firstNumber so the tests pass
+firstNumber = 0
 
 // do not edit the exported object.
 module.exports = {
