@@ -16,7 +16,7 @@ function isHelloOrGoodbye (val1) {
 
 }
 
-// This function should return a string that describes the provided age value. The 
+// This function should return a string that describes the provided age value. The
 // table below shows for each range of age values what string should be returned.
 //
 // For example, if an age of 3 is provided to the function, "Toddler" should be
@@ -29,10 +29,9 @@ function isHelloOrGoodbye (val1) {
 // 13-19  | Teenager
 // 20+    | Adult
 function getAgeDescription (age) {
-  
+
   // TODO: write code in this function body to pass the tests
 }
-
 
 module.exports = {
   a: isInRange,

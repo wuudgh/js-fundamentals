@@ -15,7 +15,7 @@ const tenthCharacterOfAlphabet = null
 const lowerCaseAlphabet = null
 
 // Use a property on the alphabet variable to get it's length
-const numberOfLettersInAlphabet = null 
+const numberOfLettersInAlphabet = null
 
 // do not edit the exported object.
 module.exports = {
