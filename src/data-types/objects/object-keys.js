@@ -16,8 +16,11 @@ const isbn13 = '978-0132350884'
 // TODO: write code in this section to pass the tests. You will need to add new code
 // as well as modify some of the existing code
 
-const name = '' // Set this to the book name
-const isbn10 = '' // Set this to the isbn 10 value
+// Set this to the book name
+const name = ''
+
+// Set this to the isbn 10 value
+const isbn10 = ''
 
 // Do not edit this exported object
 module.exports = {
