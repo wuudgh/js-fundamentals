@@ -20,5 +20,5 @@ module.exports = {
   a: names,
   b: fourthCity,
   c: firstCity,
-  e: lengthOfCitiesArray
+  d: lengthOfCitiesArray
 }
