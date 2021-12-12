@@ -57,13 +57,27 @@ $ npx jasmine spec/variables/assignment.spec.js
 
 **Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignment.js` and follow the instructions to make the test pass.
 
-**NB:** Do not change any code in the `spec` directory. When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). 
+You might also want to use the `--fail-fast` option when running the test:
 
-The README file for each topic also contains an overview of the concepts required to make the tests pass. In the README files, when you see this message:
+```sh
+$ npx jasmine --fail-fast=true spec/data-types/arrays/accessing-elements.spec.js
+```
+
+This will stop running the test as soon as the first test case fails. This can make it easier to focus on a single test at a time.
+
+**NB:** Do not change any code in the `spec` directory. 
+
+### Getting Help
+
+When you encounter something you don't know, research it, using the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). The README file for each topic also contains an overview of the concepts required to make the tests pass as well as more specific reference material for each topic. In the README files, when you see this message:
 
 > 👨‍💻 Run these examples in your REPL as you read along! 👨‍💻
 
-Open up your REPL and type in the code samples as you go. Once you've passed the tests for each exercise, push your work to your repository
+Open up your REPL and type in the code samples as you go. 
+
+### Updating Progress
+
+Once you've passed the tests for each exercise, push your work to your repository
 ```sh
 $ git add src/variables/assignment.js
 $ git commit -m "variable assignments completed"
