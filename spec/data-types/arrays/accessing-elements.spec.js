@@ -5,8 +5,8 @@ describe("Arrays accessing:", () => {
     expect(answers.a).toEqual(["Bob", "Jane", "Joanna"])
   })
 
-  it("fourthCity is Dehli", () => {
-    expect(answers.b).toEqual("Dehli")
+  it("fourthCity is Delhi", () => {
+    expect(answers.b).toEqual("Delhi")
   })
 
   it("firstCity is London", () => {

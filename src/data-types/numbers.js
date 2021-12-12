@@ -5,7 +5,7 @@ const numThree = 32
 
 // TODO: Add code below using Javascript numeric operators so that the tests pass
 
- // Set this variable to numOne added to numTwo
+// Set this variable to numOne added to numTwo
 const numOnePlusNumTwo = NaN
 
 // Set this variable to numThree multiplied by numTwo
