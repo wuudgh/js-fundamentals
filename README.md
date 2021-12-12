@@ -55,7 +55,7 @@ $ npx jasmine spec/variables/assignment.spec.js
 ```
 ![](./_images/test-output1.png)
 
-**Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignment.js` and follow the instructions to make the test pass.
+**Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignment.js` and follow the instructions to make the test pass. **Do not change any code in the `spec` directory**.
 
 You might also want to use the `--fail-fast` option when running the test:
 
@@ -63,9 +63,7 @@ You might also want to use the `--fail-fast` option when running the test:
 $ npx jasmine --fail-fast=true spec/data-types/arrays/accessing-elements.spec.js
 ```
 
-This will stop running the test as soon as the first test case fails. This can make it easier to focus on a single test at a time.
-
-**NB:** Do not change any code in the `spec` directory. 
+This will stop running the test as soon as the first test case fails. This can make it easier to focus on a single test at a time. If you are using VS Code, you may also want to consider adding an additional VS Code keyboard shortcut to make it easier to switch between the terminal window and the editor - see [this StackOverflow Post[https://stackoverflow.com/a/43012779].
 
 ### Getting Help
 
