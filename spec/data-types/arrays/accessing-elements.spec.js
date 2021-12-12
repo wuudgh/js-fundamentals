@@ -1,24 +1,20 @@
 const answers = require('../../../src/data-types/arrays/accessing-elements.js')
 
 describe("Arrays accessing:", () => {
-  it("Element A", () => {
-    expect(answers.a).toEqual("Kuala Lumpur")
+  it("names equals Bob, Jane, Joanna", () => {
+    expect(answers.a).toEqual(["Bob", "Jane", "Joanna"])
   })
 
-  it("Element B", () => {
-    expect(answers.b).toEqual("Ed")
+  it("fourthCity is Dehli", () => {
+    expect(answers.b).toEqual("Dehli")
   })
 
-  it("Element C", () => {
-    expect(answers.c).toEqual("Joanna")
-  })
-
-  it("Element D", () => {
-    expect(answers.d).toEqual("London")
+  it("firstCity is London", () => {
+    expect(answers.c).toEqual("London")
   })
 
   it("lengthOfCitiesArray is 5", () => {
-    expect(answers.e).toEqual(5)
+    expect(answers.d).toEqual(5)
   })
 
 })

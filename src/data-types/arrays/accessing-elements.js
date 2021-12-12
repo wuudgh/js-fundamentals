@@ -2,19 +2,23 @@
 const cities = ['London', 'Shanghai', 'New York', 'Delhi', 'Kuala Lumpur']
 
 // TODO: write code to pass the tests
-const names = []
 
-const elementA = cities[NaN]
-const elementB = ['Hi', 'Ed', 'how', 'are', 'you?'][NaN]
-const elementC = names[2]
-const elementD = cities[NaN]
+//Set names equal to an array containing 'Bob', 'Jane', 'Joanna' in that order
+const names = null
+
+//Set fourthCity to the 4th element in the cities array
+const fourthCity = ''
+
+//Set firstCity to the 1st element in the cities array
+const firstCity = ''
+
+//Set lengthOfCitiesArray to the length of the cities array
 const lengthOfCitiesArray = NaN
 
 // Do not edit this exported object
 module.exports = {
-  a: elementA,
-  b: elementB,
-  c: elementC,
-  d: elementD,
+  a: names,
+  b: fourthCity,
+  c: firstCity,
   e: lengthOfCitiesArray
 }

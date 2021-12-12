@@ -1,35 +1,35 @@
 const answers = require('../../../src/data-types/arrays/adding-removing-elements.js')
 
 describe("Arrays adding and removing:", () => {
-  it("Array A", () => {
+  it("names contains a single element 'Fred'", () => {
     expect(answers.a).toEqual(["Fred"])
   })
 
-  it("Array B", () => {
+  it("numbers is 1,2,3,4", () => {
     expect(answers.b).toEqual([1,2,3,4])
   })
 
-  it("Array C", () => {
+  it("Rio is added to the start of cities", () => {
     expect(answers.c).toEqual(["Rio", "London", "Shanghai", "New York", "Delhi", "Kuala Lumpur"])
   })
 
-  it("Array D", () => {
+  it("Red is removed from the start of colours", () => {
     expect(answers.d).toEqual(["Blue", "Yellow"])
   })
 
-  it("Array E", () => {
+  it("Y is removed from the keys array", () => {
     expect(answers.e).toEqual(["q", "w", "e", "r", "t"])
   })
 
-  it("Array F", () => {
+  it("Jordan is removed from the countries array", () => {
     expect(answers.f).toEqual(["Bolivia", "Greenland"])
   })
 
-  it("Array G", () => {
+  it("Pear is removed from fruits", () => {
     expect(answers.g).toEqual(["Apple", "Orange"])
   })
 
-  it("Array H", () => {
+  it("The removed item from fruits is stored in the pear variable", () => {
     expect(answers.h).toEqual("Pear")
   })
 })
