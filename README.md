@@ -63,7 +63,9 @@ You might also want to use the `--fail-fast` option when running the test:
 $ npx jasmine --fail-fast=true spec/data-types/arrays/accessing-elements.spec.js
 ```
 
-This will stop running the test as soon as the first test case fails. This can make it easier to focus on a single test at a time. If you are using VS Code, you may also want to consider adding an additional VS Code keyboard shortcut to make it easier to switch between the terminal window and the editor - see [this StackOverflow Post[https://stackoverflow.com/a/43012779].
+This will stop running the test as soon as the first test case fails. This can make it easier to focus on a single test at a time. 
+
+If you are using VS Code, you may also want to consider adding an additional VS Code keyboard shortcut to make it easier to switch between the terminal window and the editor. See [this StackOverflow Post](https://stackoverflow.com/a/43012779).
 
 ### Getting Help
 
