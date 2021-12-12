@@ -1,6 +1,6 @@
 const answers = require('../../../src/data-types/arrays/adding-removing-elements.js')
 
-describe("Arrays", () => {
+describe("Arrays adding and removing:", () => {
   it("Array A", () => {
     expect(answers.a).toEqual(["Fred"])
   })

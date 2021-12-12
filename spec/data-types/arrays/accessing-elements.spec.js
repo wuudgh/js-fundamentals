@@ -1,6 +1,6 @@
 const answers = require('../../../src/data-types/arrays/accessing-elements.js')
 
-describe("Arrays", () => {
+describe("Arrays accessing:", () => {
   it("Element A", () => {
     expect(answers.a).toEqual("Kuala Lumpur")
   })

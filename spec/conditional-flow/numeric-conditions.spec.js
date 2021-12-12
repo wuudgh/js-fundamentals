@@ -1,6 +1,6 @@
 const {a, b, c} = require('../../src/conditional-flow/numeric-conditions')
 
-describe("isArrayEmpty", () => {
+describe("Numeric Conditions isArrayEmpty:", () => {
   it("[] is empty", () => {
     expect(a([])).toEqual(true)
   })
@@ -13,7 +13,7 @@ describe("isArrayEmpty", () => {
   })
 })
 
-describe("isGreaterThan", () => {
+describe("Numeric conditions isGreaterThan:", () => {
   it("3 is greater than 2", () => {
     expect(b(3, 2)).toEqual(true)
   })
@@ -31,7 +31,7 @@ describe("isGreaterThan", () => {
   })
 })
 
-describe("findLowest", () => {
+describe("Numeric Conditions findLowest:", () => {
   it("1 is lowest in [10, 8, 4, 1, 8]", () => {
     expect(c([10, 8, 4, 1, 8])).toEqual(1)
   })

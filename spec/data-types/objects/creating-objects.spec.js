@@ -1,6 +1,6 @@
 const answers = require('../../../src/data-types/objects/creating-objects.js')
 
-describe('Objects', () => {
+describe('Creating Objects:', () => {
   it('Person should be an object with the name "Jane"', () => {
     expect(answers.person.name).toEqual('Jane')
   })

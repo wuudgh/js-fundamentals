@@ -1,6 +1,6 @@
 const {a, b, c} = require('../../src/functions/calling-functions.js')
 
-describe('Calling Functions', () => {
+describe('Calling Functions:', () => {
   it('hello', () => {
     expect(a).toEqual('Hello')
   })

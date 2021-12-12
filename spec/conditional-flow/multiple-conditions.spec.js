@@ -1,6 +1,6 @@
 const {a, b, c} = require('../../src/conditional-flow/multiple-conditions')
 
-describe("isInRange", () => {
+describe("Multiple Conditions isInRange:", () => {
   it("4 is between 1 and 6", () => {
     expect(a(4, 1, 6)).toEqual(true)
   })
@@ -15,7 +15,7 @@ describe("isInRange", () => {
   })
 })
 
-describe("isHelloOrGoodbye", () => {
+describe("Multiple Conditions isHelloOrGoodbye:", () => {
   it("'Hello' returns true", () => {
     expect(b('Hello')).toEqual(true)
   })
@@ -29,7 +29,7 @@ describe("isHelloOrGoodbye", () => {
   })
 })
   
-describe("getAgeDescription", () => {
+describe("Multiple Conditions getAgeDescription:", () => {
   it("0 is a Baby", () => {
     expect(c(0)).toEqual("Baby")
   })

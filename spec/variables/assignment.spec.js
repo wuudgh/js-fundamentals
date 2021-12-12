@@ -1,6 +1,6 @@
 const { a, b } = require('../../src/variables/assignment.js')
 
-describe("Variable Assignment", () => {
+describe("Variable Assignment:", () => {
   it("firstNumber is 20", () => {
     expect(a).toEqual(20)
   })

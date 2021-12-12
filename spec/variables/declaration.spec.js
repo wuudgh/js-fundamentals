@@ -1,6 +1,6 @@
 const { firstName, age } = require('../../src/variables/declaration.js')
 
-describe("Variable Declaration", () => {
+describe("Variable Declaration:", () => {
   it("firstName is Jane", () => {
     expect(firstName).toEqual("Jane")
   })

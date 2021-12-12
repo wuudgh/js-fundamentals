@@ -1,6 +1,6 @@
 const { a, b, c, d } = require('../../src/loops/for-loop-basic')
 
-describe('For Loop Basic', () => {
+describe('For Loop Basic:', () => {
   it('numsZeroToThree', () => {
     expect(a).toEqual([0,1,2,3])
   })

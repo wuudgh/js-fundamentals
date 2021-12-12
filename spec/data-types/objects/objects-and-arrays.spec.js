@@ -1,6 +1,6 @@
 const answers = require('../../../src/data-types/objects/objects-and-arrays.js')
 
-describe('Objects', () => {
+describe('Objects and Arrays:', () => {
   it('Number of voucher codes should be 2', () => {
     expect(answers.numberOfVoucherCodes).toEqual(2)
   })

@@ -1,6 +1,6 @@
 const { a, b, c, d, e, f } = require('../../src/conditional-flow/string-conditions')
 
-describe("isHello", () => {
+describe("String Conditions isHello:", () => {
   it("Returns false with 'goodbye'", () => {
     expect(a("goodbye")).toEqual(false)
   })
@@ -9,7 +9,7 @@ describe("isHello", () => {
   })
 })
 
-describe("isNotHello", () => {
+describe("String Conditions isNotHello:", () => {
   it("Returns true with 'goodbye'", () => {
     expect(b("goodbye")).toEqual(true)
   })
@@ -18,7 +18,7 @@ describe("isNotHello", () => {
   })
 })
 
-describe("isLongerThan", () => {
+describe("String Conditions isLongerThan:", () => {
   it("'Mike' is longer than 'Ed'", () => {
     expect(c("Mike", "Ed")).toEqual(true)
   })
@@ -30,7 +30,7 @@ describe("isLongerThan", () => {
   })
 })
 
-describe("hasOddNumberVowels", () => {
+describe("String Conditions hasOddNumberVowels:", () => {
   it("'Alex' does not have odd number vowels", () => {
     expect(d("Alex")).toEqual(false)
   })
@@ -45,7 +45,7 @@ describe("hasOddNumberVowels", () => {
   })
 })
 
-describe("getMiddleLetter", () => {
+describe("String conditions getMiddleLetter:", () => {
   it("'Alex' returns 'le'", () => {
     expect(e("Alex")).toEqual('le')
   })
@@ -60,7 +60,7 @@ describe("getMiddleLetter", () => {
   })
 })
 
-describe('seasonForMonth', () => {
+describe('String conditions seasonForMonth:', () => {
   it('January is Winter', () => {
     expect(f('January')).toEqual('Winter')
   })

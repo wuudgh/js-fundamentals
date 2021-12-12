@@ -1,6 +1,6 @@
 const { a, b, c, d, e } = require('../../src/loops/for-loop-and-arrays')
 
-describe('For Loops and Arrays', () => {
+describe('For Loops and Arrays:', () => {
   it('sum', () => {
     expect(a).toEqual(43)
   })

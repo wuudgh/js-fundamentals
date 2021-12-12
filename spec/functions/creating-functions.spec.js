@@ -1,6 +1,6 @@
 const { a, b } = require('../../src/functions/creating-functions')
 
-describe("Creating Functions", () => {
+describe("Creating Functions:", () => {
   it("increment adds 1", () => {
     expect(a(1)).toEqual(2)
   })

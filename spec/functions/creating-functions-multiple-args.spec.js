@@ -1,6 +1,6 @@
 const {a, b} = require('../../src/functions/creating-functions-multiple-args')
 
-describe("Creating Functions Multiple Args", () => {
+describe("Creating Functions Multiple Args:", () => {
 
   it("First function returns range 1 to 3", () => {
     expect(a(1, 3)).toEqual([1,2,3])

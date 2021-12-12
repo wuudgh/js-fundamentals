@@ -1,6 +1,6 @@
 const answers = require('../../../src/data-types/objects/object-keys.js')
 
-describe('Objects', () => {
+describe('Objects Keys:', () => {
   it('name should be equal to the book name', () => {
     expect(answers.name).toEqual('Clean Code')
   })
