@@ -5,7 +5,7 @@ const cities = ["London", "Shanghai", "New York", "Delhi", "Kuala Lumpur"];
 
 // Set names equal to an array containing 'Bob', 'Jane', 'Joanna' in that order
 //To define an array i use [] syntax
-//The array needs to contain the avove values which i can coppy and paste
+//The array needs to contain the above values which i can coppy and paste
 const names = ["Bob", "Jane", "Joanna"];
 
 // Set fourthCity to the 4th element in the cities array
