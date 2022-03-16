@@ -45,7 +45,7 @@ function lowerUpper(lower, upper) {
 //I will also need a pair of curly brackets where i write the block of code tell the function what i want it to do.
 //I last part is the return where i return the out put of the function.
 //To turn a string of lowercase to uppercase i need a prototype method call toUpperCase()
-// I will also need a for loop.
+// I will also need a for loop because i will need to use it to populate the number parameter i am passing in the function.
 // I need a method of joining two strings together call string concatenation.
 
 function twoArgs(word, num) {
